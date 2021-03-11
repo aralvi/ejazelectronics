@@ -1,0 +1,21 @@
+.hide{
+    display: none;
+}
+#myTable_wrapper .row{
+	width: 100% !important;
+	padding-bottom: 15px;
+}
+.dataTables_length .form-control{
+	height: calc(1.5em + 1rem + -4px) !important;
+	margin: 0px 5px !important;
+}
+#myTable_filter .form-control{
+	height: calc(1.5em + 1rem + -4px) !important;
+}
+#removeImage{
+  cursor: pointer;
+  padding:5px;
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}

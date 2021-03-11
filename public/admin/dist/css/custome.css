@@ -1,0 +1,32 @@
+.modal-content {
+    border-radius: 30px;
+}
+.avatar-img {
+    height: 40px !important;
+    width: 40px !important;
+    margin-right: 18px;
+}
+#grad4 {
+    background-image: linear-gradient(100deg, deeppink, #0000ff61);
+}
+#grad1 {
+    background-image: linear-gradient(deeppink, #0000ff61);
+}
+a.nav-link:active,
+li > a.nav-link:hover,
+li > a.active {
+    background-color: deeppink !important;
+}
+
+/* [class*="sidebar-dark-"] .nav-sidebar > .nav-item.menu-open > .nav-link,
+[class*="sidebar-dark-"] .nav-sidebar > .nav-item:hover > .nav-link,
+[class*="sidebar-dark-"] .nav-sidebar > .nav-item > .nav-link:focus {
+    background-color: rgb(255 255 255 /0%);
+    color: #fff;
+} */
+[class*="sidebar-dark-"] .nav-treeview > .nav-item > .nav-link.active,
+[class*="sidebar-dark-"] .nav-treeview > .nav-item > .nav-link.active:focus,
+[class*="sidebar-dark-"] .nav-treeview > .nav-item > .nav-link.active:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #fff;
+}
